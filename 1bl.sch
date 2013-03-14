@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -8842,34 +8856,34 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="U1" library="SparkFun" deviceset="ATMEGA168" device=""/>
-<part name="R10" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R32" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R14" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R15" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R11" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R33" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R27" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R12" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R13" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R18" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R20" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R21" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R22" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R3" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R17" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R16" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R23" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R19" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R9" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R25" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R24" library="SparkFun" deviceset="RESISTOR" device=""/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device=""/>
+<part name="R10" library="SparkFun" deviceset="RESISTOR" device="" value="10K"/>
+<part name="R32" library="SparkFun" deviceset="RESISTOR" device="" value="10R"/>
+<part name="R14" library="SparkFun" deviceset="RESISTOR" device="" value="18k"/>
+<part name="R15" library="SparkFun" deviceset="RESISTOR" device="" value="1k"/>
+<part name="R11" library="SparkFun" deviceset="RESISTOR" device="" value="680R"/>
+<part name="R33" library="SparkFun" deviceset="RESISTOR" device="" value="1K"/>
+<part name="R27" library="SparkFun" deviceset="RESISTOR" device="" value="1K"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R12" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R13" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R18" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R20" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R21" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R22" library="SparkFun" deviceset="RESISTOR" device="" value="4k7"/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="" value="0R"/>
+<part name="R17" library="SparkFun" deviceset="RESISTOR" device="" value="100R"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="" value="470R"/>
+<part name="R16" library="SparkFun" deviceset="RESISTOR" device="" value="18k"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="" value="0R"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="" value="470R"/>
+<part name="R23" library="SparkFun" deviceset="RESISTOR" device="" value="18k"/>
+<part name="R19" library="SparkFun" deviceset="RESISTOR" device="" value="100R"/>
+<part name="R9" library="SparkFun" deviceset="RESISTOR" device="" value="0R"/>
+<part name="R25" library="SparkFun" deviceset="RESISTOR" device="" value="100R"/>
+<part name="R24" library="SparkFun" deviceset="RESISTOR" device="" value="18k"/>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="" value="470R"/>
 <part name="C3" library="SparkFun" deviceset="CAP" device="0805" value="100n"/>
 <part name="C11" library="SparkFun" deviceset="CAP" device="0805" value="100n"/>
 <part name="C17" library="SparkFun" deviceset="CAP" device="0805" value="100n"/>
@@ -8887,8 +8901,8 @@ Source: www.kingbright.com</description>
 <part name="C1" library="SparkFun" deviceset="CAP" device="0805" value="100n"/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0805" value="100n"/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="0805" value="100n"/>
-<part name="C9" library="SparkFun" deviceset="CAP_POL" device="PTH4"/>
-<part name="C12" library="resistor" deviceset="CPOL-EU" device="B"/>
+<part name="C9" library="SparkFun" deviceset="CAP_POL" device="PTH4" value="330µF/25V"/>
+<part name="C12" library="resistor" deviceset="CPOL-EU" device="B" value="10µF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -8899,15 +8913,15 @@ Source: www.kingbright.com</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="T1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23"/>
-<part name="T2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23"/>
-<part name="T3" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23"/>
-<part name="NC+" library="transistor-power" deviceset="IRF?5305" device="R"/>
-<part name="NB+" library="transistor-power" deviceset="IRF?5305" device="R"/>
-<part name="NA+" library="transistor-power" deviceset="IRF?5305" device="R"/>
-<part name="NB-" library="transistor-power" deviceset="IRF?5305" device="R"/>
-<part name="NA-" library="transistor-power" deviceset="IRF?5305" device="R"/>
-<part name="NC-" library="transistor-power" deviceset="IRF?5305" device="R"/>
+<part name="T1" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23" value="PDTC143"/>
+<part name="T2" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23" value="PDTC143"/>
+<part name="T3" library="SparkFun" deviceset="TRANSISTOR_NPN" device="SOT23" value="PDTC143"/>
+<part name="NC+" library="transistor-power" deviceset="IRF?5305" device="R" value="IRFR5305 oder FDD6637"/>
+<part name="NB+" library="transistor-power" deviceset="IRF?5305" device="R" value="IRFR5305 oder FDD6637"/>
+<part name="NA+" library="transistor-power" deviceset="IRF?5305" device="R" value="IRFR5305 oder FDD6637"/>
+<part name="NB-" library="transistor-power" deviceset="IRF?5305" device="R" value="IRFR1205 oder IPD03N03LB oder IRLR7843"/>
+<part name="NA-" library="transistor-power" deviceset="IRF?5305" device="R" value="IRFR1205 oder IPD03N03LB oder IRLR7843"/>
+<part name="NC-" library="transistor-power" deviceset="IRF?5305" device="R" value="IRFR1205 oder IPD03N03LB oder IRLR7843"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -8943,6 +8957,10 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="330.2" y="-5.08" size="1.778" layer="91">FDD6637, IRLR7843  == 10A dauer</text>
+<text x="327.66" y="-10.16" size="1.778" layer="91">IRFR 5305,  IRFR 1205 == 5A dauer</text>
+<text x="330.2" y="0" size="1.778" layer="91">IPD90P03P4L, IRLR7843  == 15A dauer (r2 5 8 dann auf 330)</text>
+<text x="127" y="50.8" size="1.778" layer="91">bei 5s alle wiederstände hier verdoppeln</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="60.96" y="106.68"/>

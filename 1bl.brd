@@ -9,6 +9,20 @@
 <grid distance="6.25" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -561,34 +575,34 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="U1" library="SparkFun" package="TQFP32-08" value="ATMEGA168" x="33.4962" y="11.9062" rot="R270"/>
-<element name="R10" library="SparkFun" package="0805" value="" x="39.6876" y="15.5574" rot="R90"/>
-<element name="R32" library="SparkFun" package="0805" value="" x="29.6863" y="6.0326" rot="R180"/>
-<element name="R14" library="SparkFun" package="0805" value="" x="46.0374" y="18.5738" rot="R270"/>
-<element name="R15" library="SparkFun" package="0805" value="" x="44.45" y="18.5737" rot="R90"/>
-<element name="R11" library="SparkFun" package="0805" value="" x="21.7234" y="5.9437" rot="MR0"/>
-<element name="R33" library="SparkFun" package="0805" value="" x="32.385" y="14.9225" rot="MR270"/>
-<element name="R27" library="SparkFun" package="0805" value="" x="44.609" y="10.3188"/>
-<element name="R7" library="SparkFun" package="0805" value="" x="18.5737" y="4.2864"/>
-<element name="R12" library="SparkFun" package="0805" value="" x="4.445" y="11.7476" rot="MR270"/>
-<element name="R13" library="SparkFun" package="0805" value="" x="3.81" y="18.8914" rot="MR270"/>
-<element name="R1" library="SparkFun" package="0805" value="" x="44.9261" y="5.0801" rot="MR90"/>
-<element name="R4" library="SparkFun" package="0805" value="" x="41.4338" y="5.0799" rot="MR90"/>
-<element name="R18" library="SparkFun" package="0805" value="" x="36.3539" y="5.0798" rot="MR90"/>
-<element name="R20" library="SparkFun" package="0805" value="" x="39.6876" y="5.08" rot="R90"/>
-<element name="R21" library="SparkFun" package="0805" value="" x="41.4338" y="5.0801" rot="R90"/>
-<element name="R22" library="SparkFun" package="0805" value="" x="43.18" y="5.08" rot="R90"/>
-<element name="R3" library="SparkFun" package="0805" value="" x="25.2349" y="6.4707"/>
-<element name="R17" library="SparkFun" package="0805" value="" x="21.5899" y="10.5092" rot="MR180"/>
-<element name="R2" library="SparkFun" package="0805" value="" x="18.7579" y="8.2805" rot="R270"/>
-<element name="R16" library="SparkFun" package="0805" value="" x="18.7643" y="8.2805" rot="MR90"/>
-<element name="R6" library="SparkFun" package="0805" value="" x="23.0569" y="11.1316" rot="R270"/>
-<element name="R5" library="SparkFun" package="0805" value="" x="18.7706" y="15.2401" rot="R270"/>
-<element name="R23" library="SparkFun" package="0805" value="" x="18.7706" y="15.2401" rot="MR90"/>
-<element name="R19" library="SparkFun" package="0805" value="" x="21.463" y="16.1353" rot="MR180"/>
-<element name="R9" library="SparkFun" package="0805" value="" x="22.9109" y="18.0848" rot="R270"/>
-<element name="R25" library="SparkFun" package="0805" value="" x="20.574" y="22.2696" rot="MR270"/>
-<element name="R24" library="SparkFun" package="0805" value="" x="18.7706" y="22.2251" rot="MR90"/>
-<element name="R8" library="SparkFun" package="0805" value="" x="18.7706" y="22.2251" rot="R270"/>
+<element name="R10" library="SparkFun" package="0805" value="10K" x="39.6876" y="15.5574" rot="R90"/>
+<element name="R32" library="SparkFun" package="0805" value="10R" x="29.6863" y="6.0326" rot="R180"/>
+<element name="R14" library="SparkFun" package="0805" value="18k" x="46.0374" y="18.5738" rot="R270"/>
+<element name="R15" library="SparkFun" package="0805" value="1k" x="44.45" y="18.5737" rot="R90"/>
+<element name="R11" library="SparkFun" package="0805" value="680R" x="21.7234" y="5.9437" rot="MR0"/>
+<element name="R33" library="SparkFun" package="0805" value="1K" x="32.385" y="14.9225" rot="MR270"/>
+<element name="R27" library="SparkFun" package="0805" value="1K" x="44.609" y="10.3188"/>
+<element name="R7" library="SparkFun" package="0805" value="4k7" x="18.5737" y="4.2864"/>
+<element name="R12" library="SparkFun" package="0805" value="4k7" x="4.445" y="11.7476" rot="MR270"/>
+<element name="R13" library="SparkFun" package="0805" value="4k7" x="3.81" y="18.8914" rot="MR270"/>
+<element name="R1" library="SparkFun" package="0805" value="4k7" x="44.9261" y="5.0801" rot="MR90"/>
+<element name="R4" library="SparkFun" package="0805" value="4k7" x="41.4338" y="5.0799" rot="MR90"/>
+<element name="R18" library="SparkFun" package="0805" value="4k7" x="36.3539" y="5.0798" rot="MR90"/>
+<element name="R20" library="SparkFun" package="0805" value="4k7" x="39.6876" y="5.08" rot="R90"/>
+<element name="R21" library="SparkFun" package="0805" value="4k7" x="41.4338" y="5.0801" rot="R90"/>
+<element name="R22" library="SparkFun" package="0805" value="4k7" x="43.18" y="5.08" rot="R90"/>
+<element name="R3" library="SparkFun" package="0805" value="0R" x="25.2349" y="6.4707"/>
+<element name="R17" library="SparkFun" package="0805" value="100R" x="21.5899" y="10.5092" rot="MR180"/>
+<element name="R2" library="SparkFun" package="0805" value="470R" x="18.7579" y="8.2805" rot="R270"/>
+<element name="R16" library="SparkFun" package="0805" value="18k" x="18.7643" y="8.2805" rot="MR90"/>
+<element name="R6" library="SparkFun" package="0805" value="0R" x="23.0569" y="11.1316" rot="R270"/>
+<element name="R5" library="SparkFun" package="0805" value="470R" x="18.7706" y="15.2401" rot="R270"/>
+<element name="R23" library="SparkFun" package="0805" value="18k" x="18.7706" y="15.2401" rot="MR90"/>
+<element name="R19" library="SparkFun" package="0805" value="100R" x="21.463" y="16.1353" rot="MR180"/>
+<element name="R9" library="SparkFun" package="0805" value="0R" x="22.9109" y="18.0848" rot="R270"/>
+<element name="R25" library="SparkFun" package="0805" value="100R" x="20.574" y="22.2696" rot="MR270"/>
+<element name="R24" library="SparkFun" package="0805" value="18k" x="18.7706" y="22.2251" rot="MR90"/>
+<element name="R8" library="SparkFun" package="0805" value="470R" x="18.7706" y="22.2251" rot="R270"/>
 <element name="C3" library="SparkFun" package="0805" value="100n" x="41.4339" y="15.5574" rot="R270"/>
 <element name="C11" library="SparkFun" package="0805" value="100n" x="29.6862" y="4.2863" rot="R180"/>
 <element name="C17" library="SparkFun" package="0805" value="100n" x="42.7037" y="18.5738" rot="R90"/>
@@ -606,17 +620,17 @@ design rules under a new name.</description>
 <element name="C1" library="SparkFun" package="0805" value="100n" x="43.1801" y="5.08" rot="MR270"/>
 <element name="C2" library="SparkFun" package="0805" value="100n" x="39.6876" y="5.0801" rot="MR270"/>
 <element name="C4" library="SparkFun" package="0805" value="100n" x="38.0999" y="5.08" rot="MR270"/>
-<element name="C9" library="SparkFun" package="CPOL-RADIAL-1000UF-25V" value="" x="44.1324" y="24.2887" rot="R270"/>
-<element name="C12" library="resistor" package="PANASONIC_B" value="" x="26.1936" y="21.2725" rot="R270"/>
-<element name="T1" library="SparkFun" package="SOT23" value="" x="21.8186" y="7.3725" rot="R90"/>
-<element name="T2" library="SparkFun" package="SOT23" value="" x="21.9075" y="14.3194" rot="R90"/>
-<element name="T3" library="SparkFun" package="SOT23" value="" x="21.8313" y="21.3171" rot="R90"/>
-<element name="NC+" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305" x="13.97" y="22.2251" rot="R90"/>
-<element name="NB+" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305" x="13.97" y="15.2401" rot="R90"/>
-<element name="NA+" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305" x="13.97" y="8.2551" rot="R90"/>
-<element name="NB-" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305" x="13.97" y="15.2401" rot="MR270"/>
-<element name="NA-" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305" x="13.97" y="8.2551" rot="MR270"/>
-<element name="NC-" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305" x="13.97" y="22.2251" rot="MR270"/>
+<element name="C9" library="SparkFun" package="CPOL-RADIAL-1000UF-25V" value="330µF/25V" x="44.1324" y="24.2887" rot="R270"/>
+<element name="C12" library="resistor" package="PANASONIC_B" value="10µF" x="26.1936" y="21.2725" rot="R270"/>
+<element name="T1" library="SparkFun" package="SOT23" value="PDTC143" x="21.8186" y="7.3725" rot="R90"/>
+<element name="T2" library="SparkFun" package="SOT23" value="PDTC143" x="21.9075" y="14.3194" rot="R90"/>
+<element name="T3" library="SparkFun" package="SOT23" value="PDTC143" x="21.8313" y="21.3171" rot="R90"/>
+<element name="NC+" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305 oder FDD6637" x="13.97" y="22.2251" rot="R90"/>
+<element name="NB+" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305 oder FDD6637" x="13.97" y="15.2401" rot="R90"/>
+<element name="NA+" library="transistor-power" package="D-PAK_TO252AA" value="IRFR5305 oder FDD6637" x="13.97" y="8.2551" rot="R90"/>
+<element name="NB-" library="transistor-power" package="D-PAK_TO252AA" value="IRFR1205 oder IPD03N03LB oder IRLR7843" x="13.97" y="15.2401" rot="MR270"/>
+<element name="NA-" library="transistor-power" package="D-PAK_TO252AA" value="IRFR1205 oder IPD03N03LB oder IRLR7843" x="13.97" y="8.2551" rot="MR270"/>
+<element name="NC-" library="transistor-power" package="D-PAK_TO252AA" value="IRFR1205 oder IPD03N03LB oder IRLR7843" x="13.97" y="22.2251" rot="MR270"/>
 <element name="C8" library="SparkFun" package="0805" value="100n" x="21.755" y="7.493" rot="MR0"/>
 <element name="PAD1" library="wirepad" package="SMD2,54-5,08" value="" x="5.715" y="22.2251" rot="R90"/>
 <element name="PAD2" library="wirepad" package="SMD2,54-5,08" value="" x="5.7149" y="15.24" rot="R90"/>
